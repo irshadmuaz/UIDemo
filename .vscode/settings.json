@@ -1,0 +1,25 @@
+{
+    "eslint.enable": true,
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+    ],
+    "eslint.autoFixOnSave": true,
+    "files.exclude": {
+        "node_modules": true,
+        "dist": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+ }
